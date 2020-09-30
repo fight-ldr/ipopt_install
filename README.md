@@ -1,6 +1,6 @@
-### The method of  installing ipopt
+## The method of  installing ipopt
 
-#### Installation steps:
+### Installation steps:
 
 If you are in a no delaying Internet environment, you can use the script to install ipopt. However, if you are not in a satisfactory Internet environment, the suggestion as follow:
 
@@ -18,14 +18,19 @@ If you are in a no delaying Internet environment, you can use the script to inst
 
 > 3.Apparently, the version of ipopt can change according with real occasion.
 
-#### Uninstall steps:
+### Uninstall steps:
 
 > cd /usr/local/lib
 >
 > sudo rm libipopt*
+>
 > cd pkgconfig
+>
 > sudo rm ipopt*
+>
 > cd ../../include
+>
 > sudo rm -r coin/
+>
 > sudo lpconfig
 
