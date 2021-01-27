@@ -20,7 +20,7 @@ install_ipopt()
         echo "Start installing Ipopt, version: $VERSION .........."
         #cd $TEMP_DIR
         #wget $IPOPT_URL
-        tar -xf Ipopt-3.12.4.tar.gz
+        unzip Ipopt-3.12.4.zip
         rm -rf Ipopt-3.12.4.tar.gz
 
         echo "Installing third party dependencies ..."
